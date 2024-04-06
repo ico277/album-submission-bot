@@ -1,0 +1,16 @@
+{
+  "name": "metal-submission-bot",
+  "version": "1.0.0",
+  "description": "meow",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node ."
+  },
+  "author": "ico277",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.4.5",
+    "node-schedule": "^2.1.1"
+  }
+}

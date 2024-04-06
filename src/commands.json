@@ -1,0 +1,26 @@
+{
+    "commands": [
+        {
+            "name": "ping",
+            "description": "Replies with Pong!",
+            "options": []
+        },
+        {
+            "name": "setup",
+            "description": "Setup your discord server for FeMbot",
+            "options": [
+                {
+                    "type": 7,
+                    "name": "announce-channel",
+                    "description": "The channel used for weekly album announcements",
+                    "required": true
+                },
+                {
+                    "type": 8,
+                    "name": "notify-ping",
+                    "description": "The Role to ping for announcement notifications"
+                }
+            ]
+        }
+    ]
+}
